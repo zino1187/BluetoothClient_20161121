@@ -1,6 +1,9 @@
 package com.sds.study.bluetoothclient;
 
+import android.bluetooth.BluetoothDevice;
+
 public class Device {
+    private BluetoothDevice bluetoothDevice;
     private String name;
     private String address;
 
@@ -18,5 +21,13 @@ public class Device {
 
     public void setAddress(String address) {
         this.address = address;
+    }
+
+    public BluetoothDevice getBluetoothDevice() {
+        return bluetoothDevice;
+    }
+
+    public void setBluetoothDevice(BluetoothDevice bluetoothDevice) {
+        this.bluetoothDevice = bluetoothDevice;
     }
 }

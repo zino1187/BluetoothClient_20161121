@@ -8,13 +8,15 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:text="G5"/>
+        android:text="G5"
+        style="@style/itemStyle"/>
 
     <TextView
         android:id="@+id/txt_address"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:text="00:dddf:9878:ff"/>
+        android:text="00:dddf:9878:ff"
+        style="@style/itemStyle"/>
 
 </LinearLayout>
